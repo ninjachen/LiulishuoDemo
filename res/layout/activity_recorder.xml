@@ -13,21 +13,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_anim"
-        android:text="@string/anim"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_recorder"
         android:text="@string/recorder"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_network"
-        android:text="@string/network"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_translate"
-        android:text="@string/translate"/>
+        android:id="@+id/btn_play"
+        android:text="@string/play"/>
+   
 </LinearLayout>
