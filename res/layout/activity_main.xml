@@ -28,6 +28,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_translate"
+        android:id="@+id/btn_goto_translate"
         android:text="@string/translate"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_goto_rotate"
+        android:text="@string/rotate"/>
 </LinearLayout>

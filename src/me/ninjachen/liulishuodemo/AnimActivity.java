@@ -1,17 +1,17 @@
 package me.ninjachen.liulishuodemo;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class AnimActivity extends ActionBarActivity {
+public class AnimActivity extends Activity {
 
 	private static Handler handler;
 	private static final int HIDE_IV_MAIN = 0;

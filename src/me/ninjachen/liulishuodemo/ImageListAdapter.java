@@ -19,14 +19,13 @@ import android.graphics.Matrix;
 import android.os.Build;
 import android.os.StrictMode;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.example.android.common.logger.Log;
-import com.example.android.common.util.ImageFetcher;
 
 /**
  * Created by ninja_chen on 13-12-30.
@@ -45,7 +44,6 @@ public class ImageListAdapter extends BaseAdapter {
 
 	// The ImageFetcher takes care of loading images into our ImageView children
 	// asynchronously
-	public static ImageFetcher mImageFetcher;
 
 	public ImageListAdapter(Activity a, List<String> picList) {
 		this.activity = a;
