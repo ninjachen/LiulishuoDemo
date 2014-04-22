@@ -4,5 +4,10 @@
     <string name="app_name">LiulishuoDemo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    
+    <string name="anim">anim</string>
+    <string name="recorder">recorder</string>
+    <string name="network">network</string>
+    <string name="translate">translate</string>
 
 </resources>

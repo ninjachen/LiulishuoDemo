@@ -11,7 +11,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class MainActivity extends ActionBarActivity {
+public class AnimActivity extends ActionBarActivity {
 
 	private static Handler handler;
 	private static final int HIDE_IV_MAIN = 0;
@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_anim);
 		
 		ivMain = (ImageView)findViewById(R.id.iv_main);
 		
