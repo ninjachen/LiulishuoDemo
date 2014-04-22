@@ -14,9 +14,9 @@
         android:id="@+id/et"/>
     
     <Button
-        android:id="@+id/btn_anim"
+        android:id="@+id/btn_translate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/anim" />
+        android:text="@string/translate" />
 
 </LinearLayout>

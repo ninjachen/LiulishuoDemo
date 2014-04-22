@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 		anim = (Button)findViewById(R.id.btn_anim);
 		recorder = (Button)findViewById(R.id.btn_recorder);
 		network = (Button)findViewById(R.id.btn_network);
-		translate = (Button)findViewById(R.id.btn_translate);
+		translate = (Button)findViewById(R.id.btn_goto_translate);
 		
 		anim.setOnClickListener(new OnClickListener() {
 			
@@ -51,6 +51,16 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent i = new Intent(MainActivity.this, ImageActivity.class);
+				startActivity(i);
+			}
+		});
+		
+		translate.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(MainActivity.this, TranslateActivity.class);
 				startActivity(i);
 			}
 		});
