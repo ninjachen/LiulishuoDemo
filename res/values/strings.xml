@@ -11,5 +11,6 @@
     <string name="network">network</string>
     <string name="bitmap">bitmap</string>
     <string name="translate">translate</string>
+    <string name="rotate">rotate</string>
 
 </resources>
