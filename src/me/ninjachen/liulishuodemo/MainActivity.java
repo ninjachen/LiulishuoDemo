@@ -40,20 +40,20 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent i = new Intent(MainActivity.this, ListActivity.class);
+				Intent i = new Intent(MainActivity.this, RecorderListActivity.class);
 				startActivity(i);
 			}
 		});
 		
-//		anim.setOnClickListener(new OnClickListener() {
-//			
-//			@Override
-//			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//				Intent i = new Intent(MainActivity.this, AnimActivity.class);
-//				startActivity(i);
-//			}
-//		});
+		network.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(MainActivity.this, ImageActivity.class);
+				startActivity(i);
+			}
+		});
 	}
 
 }

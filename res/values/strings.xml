@@ -9,6 +9,7 @@
     <string name="recorder">recorder</string>
     <string name="play">play</string>
     <string name="network">network</string>
+    <string name="bitmap">bitmap</string>
     <string name="translate">translate</string>
 
 </resources>

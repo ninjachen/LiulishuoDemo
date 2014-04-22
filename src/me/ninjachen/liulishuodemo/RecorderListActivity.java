@@ -5,14 +5,13 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ListActivity extends Activity {
+public class RecorderListActivity extends Activity {
 	/** Called when the activity is first created. */
 	private ListView mylistview;
 	private ArrayList<String> list = new ArrayList<String>();
@@ -46,7 +45,7 @@ public class ListActivity extends Activity {
 					long arg3) {
 				// TODO Auto-generated method stub
 				if (list.get(arg2).equals("test case 1")) {
-					Intent intent = new Intent(ListActivity.this, RecorderActivity.class);
+					Intent intent = new Intent(RecorderListActivity.this, RecorderActivity.class);
 					startActivity(intent);
 				}
 			}
